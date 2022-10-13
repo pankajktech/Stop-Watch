@@ -21,31 +21,26 @@ body {
 
 .watch {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .Timer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid rgb(185, 31, 31); */
-    width: 20rem;
-    height: 5rem;
     margin: 10px 0;
     font-size: 3rem;
 }
 
 .buttons button {
     border-color: rgb(185, 31, 31);
-    cursor: pointer;
-    /* color: aliceblue; */
+    cursor: pointer; 
     font-size: 1.3rem;
-    /* background: rgb(185, 31, 31); */
     margin: 4px;
-    width: 8rem;
+    width: 10rem;
     height: 3rem;
 }
 
-button:hover {
+button::hover {
     background: bisque;
 }
