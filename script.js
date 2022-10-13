@@ -1,6 +1,8 @@
 window.onload = function () {
+    let minutes = 00;
     let seconds = 00;
     let tens = 00;
+    let upMinutes = document.getElementById("minutes")
     let upSeconds = document.getElementById("seconds")
     let upTens = document.getElementById("tens")
     let start = document.getElementById("start")
@@ -39,8 +41,14 @@ window.onload = function () {
             tens = 0
             upTens.innerHTML = "0" + tens
         }
-        if(seconds > 9){
-            upSeconds.innerHTML= seconds
+        if (seconds > 9) {
+            upSeconds.innerHTML = seconds
+        }
+        if (seconds > 60) {
+            minutes++
+            upMinutes.innerHTML = "0" + minutes
+            seconds = 0
+            tens = 0
         }
     }
 

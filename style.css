@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: linear-gradient(to bottom, wheat, rgb(171, 120, 26) );
+    background: linear-gradient(to bottom, rgb(236, 229, 218), rgb(129, 222, 217) );
 
 
 
@@ -21,16 +21,19 @@ body {
 
 .watch {
     font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .Timer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin-bottom: 30px;
+    width: 15rem;
     font-size: 3rem;
     color: rgb(0, 76, 255);
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
 }
 
 .buttons button {
