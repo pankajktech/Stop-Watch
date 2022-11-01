@@ -32,12 +32,12 @@ body {
     width: 15rem;
     font-size: 3rem;
     color: rgb(0, 76, 255);
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .buttons button {
-    border-color: rgb(0, 76, 255);
+    border-color: rgb(0, 0, 0);
     cursor: pointer; 
     font-size: 1.3rem;
     margin: 4px;
